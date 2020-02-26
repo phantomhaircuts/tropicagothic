@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/ecx4dbs.css");
+
+* {
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: #bf3432;
+  color: orange;
+  font-family: bello-caps, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.content {
+  font-size: 1rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.mov-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: scroll;
+  height: 100vh;
+  max-width: 720px;
+}
+
+.tropical-gothic {
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+  overflow: scroll;
+}
