@@ -29,6 +29,8 @@ body {
   overflow: scroll;
   height: 100vh;
   max-width: 720px;
+  padding: 0;
+  margin: 0;
 }
 
 .tropical-gothic {
@@ -36,5 +38,7 @@ body {
   bottom: 0;
   max-width: 100%;
   min-height: 100%;
-  overflow: scroll;
+  overflow: 0;
+  padding: 0;
+  margin: 0;
 }
