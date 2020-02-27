@@ -17,7 +17,7 @@ body {
 }
 
 .content {
-  font-size:4.3vw;
+  font-size:4vw;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
