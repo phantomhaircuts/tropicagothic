@@ -16,7 +16,7 @@ body {
 }
 
 .content {
-  font-size: 1rem;
+  font-size:3.5vw;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -37,4 +37,9 @@ body {
   max-width: 100%;
   min-height: 100%;
   overflow: scroll;
+}
+
+video {
+  padding: 0;
+  margin: 0;
 }
