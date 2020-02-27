@@ -1,18 +1,21 @@
 // Get the video
 let videos = document.getElementsByClassName("tropical-gothic");
 
+console.log(videos);
 
 
-// Get the button
-var btn = document.getElementById("myBtn");
 
 // Pause and play the video, and change the button text
 function myFunction() {
-  if (videos.paused) {
-    video.play();
+  // Get the button
+  let btn = document.getElementById("myBtn");
+  for (var i = 0; i < videos.length; i++) {
+  if (videos[i].paused) {
+    videos[i].play();
     btn.innerHTML = "Pause";
   } else {
-    videos.pause();
+    videos[i].pause();
     btn.innerHTML = "Play";
   }
+}
 }
