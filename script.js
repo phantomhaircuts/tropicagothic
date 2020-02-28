@@ -9,12 +9,15 @@ console.log(videos);
 function myFunction() {
   // Get the button
   let btn = document.getElementById("myBtn");
+  let song = document.getElementById("music")
   for (var i = 0; i < videos.length; i++) {
   if (videos[i].paused) {
-    videos[i].play();
+    // videos[i].play();
+    song.play()
     btn.innerHTML = "Pause";
   } else {
-    videos[i].pause();
+    // videos[i].pause();
+    song.pause();
     btn.innerHTML = "Play";
   }
 }
